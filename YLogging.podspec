@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
 	  s.source       = { :git => "https://github.com/SalmanAhmedDev/YLogging.git", :tag => "1.0.0" }
  
           #9.
-          s.source_files     = "TestingFramwork", "Classes/**/*.{h,m}"
+          s.source_files     = "YLogging", "YLogging/**/*.{h,m,swift}"
     end
