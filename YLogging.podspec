@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
   	s.source = { :git => 'https://github.com/SalmanAhmedDev/YLogging.git', :tag => '1.0.0' }
 
   	s.ios.deployment_target = '8.0'
-
-  	s.source_files = 'YLogging/*.h'
-  	s.requires_arc = true
 	s.ios.vendored_frameworks = 'YLogging.framework'
+
+	
     end
