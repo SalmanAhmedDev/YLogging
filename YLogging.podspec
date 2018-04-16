@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-	s.name = 'MotionKit'
+	s.name = 'YLogging'
   	s.version = '0.0.1'
   	s.license = 'MIT'
   	s.summary = 'CoreMotion Made insanely simple'
