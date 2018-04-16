@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
           #6.
           s.author               = "Salman"
           #7.
-          s.platform            = :os, "8.0"
+          s.platform            = :ios, "8.0"
           #8.
 	  s.source       = { :git => "https://github.com/SalmanAhmedDev/YLogging.git", :tag => "1.0.0" }
  
