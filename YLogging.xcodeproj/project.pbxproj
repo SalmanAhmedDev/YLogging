@@ -10,6 +10,9 @@
 		9A64F3C72080B9A300AFD459 /* YLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A64F3C52080B9A300AFD459 /* YLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A64F3CE2080B9D700AFD459 /* YLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A64F3CD2080B9D700AFD459 /* YLog.swift */; };
 		9AC8A01A20849D39009B0E84 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9AC8A01920849D39009B0E84 /* README.md */; };
+		9AC8A01B20849EC7009B0E84 /* YLog.swift in Headers */ = {isa = PBXBuildFile; fileRef = 9A64F3CD2080B9D700AFD459 /* YLog.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AC8A01E20849F51009B0E84 /* constant.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC8A01C20849F51009B0E84 /* constant.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AC8A01F20849F51009B0E84 /* constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8A01D20849F51009B0E84 /* constant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,8 @@
 		9A64F3C62080B9A300AFD459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A64F3CD2080B9D700AFD459 /* YLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLog.swift; sourceTree = "<group>"; };
 		9AC8A01920849D39009B0E84 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9AC8A01C20849F51009B0E84 /* constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constant.h; sourceTree = "<group>"; };
+		9AC8A01D20849F51009B0E84 /* constant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = constant.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,8 @@
 				9A64F3C52080B9A300AFD459 /* YLogging.h */,
 				9A64F3C62080B9A300AFD459 /* Info.plist */,
 				9A64F3CD2080B9D700AFD459 /* YLog.swift */,
+				9AC8A01C20849F51009B0E84 /* constant.h */,
+				9AC8A01D20849F51009B0E84 /* constant.m */,
 			);
 			path = YLogging;
 			sourceTree = "<group>";
@@ -66,6 +73,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A64F3C72080B9A300AFD459 /* YLogging.h in Headers */,
+				9AC8A01E20849F51009B0E84 /* constant.h in Headers */,
+				9AC8A01B20849EC7009B0E84 /* YLog.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +111,7 @@
 					9A64F3C12080B9A300AFD459 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 4H849Z7V2K;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -141,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A64F3CE2080B9D700AFD459 /* YLog.swift in Sources */,
+				9AC8A01F20849F51009B0E84 /* constant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
