@@ -18,4 +18,7 @@ Pod::Spec.new do |s|
  
           #9.
           s.source_files     = "YLogging", "YLogging/**/*.{h,m,swift}"
+	  
+	  #10
+	  s.requires_arc = true
     end
