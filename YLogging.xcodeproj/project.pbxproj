@@ -10,7 +10,7 @@
 		9A64F3C72080B9A300AFD459 /* YLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A64F3C52080B9A300AFD459 /* YLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A64F3CE2080B9D700AFD459 /* YLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A64F3CD2080B9D700AFD459 /* YLog.swift */; };
 		9AC8A01A20849D39009B0E84 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9AC8A01920849D39009B0E84 /* README.md */; };
-		9AC8A01B20849EC7009B0E84 /* YLog.swift in Headers */ = {isa = PBXBuildFile; fileRef = 9A64F3CD2080B9D700AFD459 /* YLog.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AC8A01B20849EC7009B0E84 /* YLog.swift in Headers */ = {isa = PBXBuildFile; fileRef = 9A64F3CD2080B9D700AFD459 /* YLog.swift */; };
 		9AC8A01E20849F51009B0E84 /* constant.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC8A01C20849F51009B0E84 /* constant.h */; };
 		9AC8A01F20849F51009B0E84 /* constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8A01D20849F51009B0E84 /* constant.m */; };
 		9AC8A0212084BF6A009B0E84 /* YLogging.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9AC8A0202084BF6A009B0E84 /* YLogging.podspec */; };
@@ -76,8 +76,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A64F3C72080B9A300AFD459 /* YLogging.h in Headers */,
-				9AC8A01B20849EC7009B0E84 /* YLog.swift in Headers */,
 				9AC8A01E20849F51009B0E84 /* constant.h in Headers */,
+				9AC8A01B20849EC7009B0E84 /* YLog.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
