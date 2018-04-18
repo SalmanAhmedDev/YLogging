@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   	s.source  = { :http => 'https://s3.amazonaws.com/purevpn-dialer-assets/mac/YLogging.zip' , :tag => '1.0.0'}
 
   	s.ios.deployment_target = '8.0'
-s.source_files = 'YLogging.framework/Headers/*.h'
-s.public_header_files = 'YLogging.framework/Headers/*.h'
+    s.source_files = 'YLogging.framework/Headers/*.h'
+    s.public_header_files = 'YLogging.framework/Headers/*.h'
 	s.ios.vendored_frameworks = 'YLogging.framework'
 
 	
