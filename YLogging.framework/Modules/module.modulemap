@@ -1,0 +1,10 @@
+framework module YLogging {
+  umbrella header "YLogging.h"
+
+  export *
+  module * { export * }
+}
+
+module YLogging.Swift {
+    header "YLogging-Swift.h"
+}
