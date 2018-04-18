@@ -7,8 +7,9 @@ Pod::Spec.new do |s|
   	s.homepage = 'http => 'https://s3.amazonaws.com/purevpn-dialer-assets/mac/YLogging.zip'
   	s.social_media_url = 'https://twitter.com/PyBaig'
   	s.authors = { 'salman ahmed' => 'salman@gmail.com' }
-  	s.source  = { :http => 'https://github.com/SalmanAhmedDev/YLogging.git' , :tag => '1.0.0'}
+  	s.source  = { :http => 'https://s3.amazonaws.com/purevpn-dialer-assets/mac/YLogging.zip' , :tag => '1.0.0'}
   	s.ios.deployment_target = '8.0'
 	s.ios.vendored_frameworks = 'YLogging.framework'
 
+	
     end
